@@ -9,7 +9,7 @@ $name="ad_851c618ffded7a9";
     // mysqlへのアクセス
     $mysqli = new mysqli("$hostname:$port","$username","$password", "$name");
     // sql文の発行
-    $result = $mysqli->query("create table test(id int,name varchar(255)");
+    $result = $mysqli->query("create table test(id int,name varchar(255))");
    // $result = $mysqli->query("create table test(id int,name varchar(255)");
    // $result = $mysqli->query("select * from test");
     // 取得した行分繰り返し
